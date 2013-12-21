@@ -1,0 +1,12 @@
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\GenericEfRepository.Tests.dll
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\GenericEfRepository.Tests.pdb
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\xunit.dll
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\xunit.xml
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\obj\Debug\GenericEfRepository.Tests.csprojResolveAssemblyReference.cache
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\obj\Debug\GenericEfRepository.Tests.dll
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\obj\Debug\GenericEfRepository.Tests.pdb
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\GenericEfRepository.Tests.dll.config
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\EntityFramework.dll
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\EntityFramework.xml
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\GenericEfRepository.dll
+C:\dev\tmp\GenericEfRepository\GenericEfRepository.Tests\bin\Debug\GenericEfRepository.pdb

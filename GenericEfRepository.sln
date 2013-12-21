@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericEfRepository", "GenericEfRepository\GenericEfRepository.csproj", "{454553FF-A9A0-4310-B4F8-EF4B849684A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericEfRepository.Tests", "GenericEfRepository.Tests\GenericEfRepository.Tests.csproj", "{B4767281-9F54-4870-A850-838A12668E03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454553FF-A9A0-4310-B4F8-EF4B849684A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454553FF-A9A0-4310-B4F8-EF4B849684A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454553FF-A9A0-4310-B4F8-EF4B849684A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454553FF-A9A0-4310-B4F8-EF4B849684A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4767281-9F54-4870-A850-838A12668E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4767281-9F54-4870-A850-838A12668E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4767281-9F54-4870-A850-838A12668E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4767281-9F54-4870-A850-838A12668E03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
