@@ -6,14 +6,12 @@
     using System.Diagnostics;
     using System.Linq;
 
-    public class Repository<T> : IDisposable, IRepository<T> where T : class
+    public class Repository<T> : IRepository<T> where T : class
     {
         public Repository(DbContext dbContext)
         {
             this.Context = dbContext;
             this.DbSet = this.Context.Set<T>();
-
-            Debug.WriteLine(string.Format("Repository {0} created", typeof(T).ToString()));
         }
 
         public DbSet<T> DbSet { get; set; }
@@ -56,15 +54,10 @@
             DbSet.Remove(entity);
         }
 
-        public void Delete(string id)
+        public void Delete(object id)
         {
             var entityToDelete = DbSet.Find(id);
             Delete(entityToDelete);
-        }
-
-        public void Dispose()
-        {
-            Debug.WriteLine(string.Format("Repository {0} disposed", typeof(T).ToString()));
         }
     }
 }

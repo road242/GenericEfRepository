@@ -56,7 +56,6 @@
     <Compile Include="TestData\LocalDbFixture.cs" />
     <Compile Include="TestData\TestContext.cs" />
     <Compile Include="TestData\TestEntity.cs" />
-    <Compile Include="TestEntityStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

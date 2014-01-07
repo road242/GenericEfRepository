@@ -57,6 +57,21 @@
         }
 
         [Fact]
+        public void AddAndDeleteById()
+        {
+            var entity = this.AddTestEntity();
+            Assert.True(entity.Id != 0);
+
+            entity.DebugPrint();
+
+            this.Repository.Delete(entity.Id);
+            this.Context.SaveChanges();
+
+            entity = this.Repository.GetById(entity.Id);
+            Assert.Null(entity);
+        }
+
+        [Fact]
         public void GetById()
         {
             var entity = this.Repository.GetById(1);

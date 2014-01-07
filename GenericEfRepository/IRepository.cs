@@ -51,6 +51,6 @@
         /// Remove object by its identifier
         /// </summary>
         /// <param name="id">id ob entity</param>
-        void Delete(string id);
+        void Delete(object id);
     }
 }
